@@ -6,17 +6,18 @@ Tabellnavn:	booklist
 Brukernavn:	root
 Passord:	password
 	
-Jeg byttet navn på tabellen og kolonnene i tabellen med engelske navn.
+Jeg byttet navn pï¿½ tabellen og kolonnene i tabellen med engelske navn.
 I prosjektet har jeg lagt ved to filer, DB_Script.txt og booklist.sql.
 
-DB_Script kjøres først og lager tabellen med kolonner, deretter kjører
+DB_Script kjï¿½res fï¿½rst og lager tabellen med kolonner, deretter kjï¿½rer
 du booklist filen, den vil da fylle tabellen med data.
 
-Jeg legger også med en executable jar fil, Client.jar, som kan startes
+/* Denne gjelder ikke for Ã¸yeblikket, .gitignore fjerner alle .jar fra prosjektet */
+Jeg legger ogsï¿½ med en executable jar fil, Client.jar, som kan startes
 via cmd, ved at man navigerer fram til mappen Client.jar ligger i, deretter
 skriver man i cmd: 
 
 java -jar Client.jar
 
 Den kommandoen forutsetter at man har bundet java til Environment 
-variables PATH, om du er på Windows.
+variables PATH, om du er pï¿½ Windows.
