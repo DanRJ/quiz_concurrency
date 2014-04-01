@@ -1,0 +1,8 @@
+CREATE TABLE `innlevering2db`.`booklist` (
+  `idbooklist` INT NOT NULL AUTO_INCREMENT,
+  `author` VARCHAR(20) NULL,
+  `title` VARCHAR(30) NULL,
+  `isbn` VARCHAR(20) NULL,
+  `pages` SMALLINT(4) NULL,
+  `published` SMALLINT(4) NULL,
+  PRIMARY KEY (`idbooklist`));

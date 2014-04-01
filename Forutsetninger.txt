@@ -1,0 +1,22 @@
+Quiz, forutsetninger:
+DBURL: 		localhost
+DBNavn:		innlevering2db
+
+Tabellnavn:	booklist		
+Brukernavn:	root
+Passord:	password
+	
+Jeg byttet navn på tabellen og kolonnene i tabellen med engelske navn.
+I prosjektet har jeg lagt ved to filer, DB_Script.txt og booklist.sql.
+
+DB_Script kjøres først og lager tabellen med kolonner, deretter kjører
+du booklist filen, den vil da fylle tabellen med data.
+
+Jeg legger også med en executable jar fil, Client.jar, som kan startes
+via cmd, ved at man navigerer fram til mappen Client.jar ligger i, deretter
+skriver man i cmd: 
+
+java -jar Client.jar
+
+Den kommandoen forutsetter at man har bundet java til Environment 
+variables PATH, om du er på Windows.
