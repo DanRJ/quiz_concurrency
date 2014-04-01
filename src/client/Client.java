@@ -20,10 +20,10 @@ public class Client {
 	public Client() {
 		Scanner in = new Scanner(System.in);
 		String message = "";
-		System.out.println("Forsøker oppkobling");
+		System.out.println("Forsï¿½ker oppkobling");
 		
 		try {
-			serverContact = new Socket("84.208.113.186", 8000);
+			serverContact = new Socket("localhost", 8000);
 			output = new ObjectOutputStream(serverContact.getOutputStream());
 			output.flush();
 			input = new ObjectInputStream(serverContact.getInputStream());
