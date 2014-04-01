@@ -41,7 +41,7 @@ public class Server {
 			bookHandler = new BookHandler(connection);
 			books = bookHandler.getAllBooks();
 			
-			System.out.println(("Venter på klientkontakt..."));
+			System.out.println("Venter pï¿½ klientkontakt...");
 			while (true) {
 				try  {
 					Socket klientkontakt = server.accept();
